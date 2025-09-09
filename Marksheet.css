@@ -1,0 +1,116 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+ #bigbox {
+     border: 8px double black;
+     width: 1320px;
+     height: 1850px;
+     position: relative;
+     margin: 50px 0 0 800px;
+     font-weight: bold;
+     background-image: linear-gradient(to right, rgba(238, 225, 150, 0.988), rgb(203, 255, 203), rgb(252, 240, 171, 0.988));
+ }
+
+ #secbox {
+     border: 1px solid rgb(0, 0, 0);
+     width: 1280px;
+     height: 1810px;
+     margin-left: 10px;
+     margin-top: 10px;
+ }
+
+ #container {
+     height: 195px;
+     width: 1158px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px auto;
+ }
+
+ #name {
+     text-align: center;
+     line-height: 40px;
+     flex: 1;
+ }
+ .sem {
+     position: relative;
+     z-index: 1;
+     text-align: center;
+     border: 1px solid black;
+ }
+
+ .sem::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: url("logo.jpeg") no-repeat center center;
+     background-size: 300px;
+     opacity: 0.1;
+     z-index: -1;
+ }
+
+
+ .fourth {
+     padding-top: 10px;
+ }
+
+ .fifth {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 10px;
+ }
+ .secS {
+     border: 1px solid black;
+ }
+
+ .secSign {
+     text-align: center;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     width: 40%;
+ }
+
+ .marks {
+     text-align: center;
+     border: 1px solid black;
+ }
+
+ .heads {
+     width: 80%;
+     display: flex;
+ }
+ table {
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ .secS td {
+     padding: 5px 0px 10px 30px;
+ }
+
+ .marks td {
+     padding: 10px;
+ }
+
+ .credits {
+     text-align: center;
+     border: 1px solid black;
+ }
+
+ .third td {
+     border: none;
+     border-right: 1px solid;
+     height: 25px;
+     line-height: 45px;
+ }
+
+ .third tr:first-child {
+     border: 1px solid;
+ }
